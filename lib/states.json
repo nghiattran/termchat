@@ -1,0 +1,36 @@
+{
+  "registerRequest": {
+    "code": 0,
+    "msg": "Register.",
+    "data": null
+  },
+  "registerSuccess": {
+    "code": 1,
+    "msg": "Registered successfully."
+  },
+  "registerFail": {
+    "code": 2,
+    "msg": "This name has been used. Please pick another one."
+  },
+  "sendMsg": {
+    "code": 3,
+    "msg": null
+  },
+  "error": {
+    "code": 4,
+    "msg": "Unknown error."
+  },
+  "userJoined": {
+    "code": 5,
+    "msg": null
+  },
+  "requestUsers": {
+    "code": 6,
+    "msg": null
+  },
+  "requestUsersSuccess": {
+    "code": 7,
+    "msg": null,
+    "data": null
+  }
+}
