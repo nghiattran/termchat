@@ -1,6 +1,38 @@
 # termchat
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+## WORK IN PROGRESS
+
+If you want to see how it works for now, clone the repo and go to the /lib directory. Make sure you run `npm install` to install all dependencies first.
+
+### Run as server
+
+Run `node server.js` to start server (default at port 3000) and also make sure disable firewall on that port so that other users can see access it. Or you can change port number in server.js to 80 and run it as root.
+
+![alt text](img/server.png "")
+
+### Run as client
+
+Run `node client.js`. Then, it will ask for ip address, and port number of the server you want to connect to. After that you have to insert your display name. This name must be unique so if someone already used it, it will ask you again.
+
+![alt text](img/client.png "")
+
+Then, you can start the conversation.
+
+![alt text](img/chat.png "")
+
+## Commands
+
+Run `#list` to see all people in the chat room
+
+![alt text](img/list.png "")
+
+Run `#emoji` to see all supported emoji icons
+
+![alt text](img/emoji.png "")
+
+And Ctrl + C to exit
+
+<!-- [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 ## Installation
 
@@ -12,7 +44,7 @@
 
 ```js
 var termchat = require('termchat');
-```
+``` -->
 
 ## Getting To Know Yeoman
 
